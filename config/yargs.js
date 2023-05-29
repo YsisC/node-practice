@@ -9,7 +9,7 @@ const argv = require('yargs')
         alias: 'hasta',
         type:'number',
         default: 10,
-        describe: 'Muesta el numero final de la tabla'
+        describe: 'Este es el numero hasta donde quieres la tabla'
 
     })
     .option('l', {
